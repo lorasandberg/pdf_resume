@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 1000px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  margin: 40px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  margin-top: 0;
+}
+
+h4 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+a {
+  color:#ff5100;
+}
+
+main, aside {
+  padding: 0 10px;
+}
+
+main {
+  border-left: 5px solid rgba(0,0,0,0.1);
+}
+
+aside {
+  float: left;
+  width: 25%; 
+  padding-right: 20px;
+}
+
+main {
+  float: left;
+  width: calc(70% - 30px);
+  padding-left: 30px;
+}
+
+
+#tech span, span.keyword {
+  display: inline-block;
+  background: #ffd9a8;
+  border-radius: 10px;
+  padding: 3px 10px;
+  margin: 3px;
+}
+
+.levelBars {
+  display: flex;
+  gap: 5px;
+}
+
+.levelBars div {
+  background-color: #fce1be;
+  height: 6px;
+  flex-grow: 1;
+}
+
+.levelBars div.filled {
+  background-color: #ffab3d;
+}
+
+.language p {
+  margin-top: 10px;
+  margin-bottom: 6px;
 }
